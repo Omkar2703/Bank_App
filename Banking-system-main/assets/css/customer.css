@@ -1,0 +1,76 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: black!important;
+    box-shadow: 10px 10px 10px violet;
+
+}
+
+.navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: violet!important;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 2rem;
+}
+
+.nav-link:hover{
+    background-color: violet;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+    color: white;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: black;
+    border: 2px solid white;
+    color: white!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 2rem;
+}
+
+.btn-info:hover{
+    background-color: violet!important;
+}
+.my-info{
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px white;
+}
+.container{
+    margin-bottom: 50px;
+}
+.table-responsive{
+    box-shadow: 15px 15px 15px violet;
+    border-radius: 30px;
+}
+.table-light, .table-light>td, .table-light>th {
+    background-color: black;
+    color: white;
+}
+.table-info, .table-info>td, .table-info>th {
+    background-color: black;
+    color: white;
+}
+.table-danger, .table-danger>td, .table-danger>th {
+    background-color: grey;
+    color: purple!important;
+}
